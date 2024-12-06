@@ -52,4 +52,36 @@
   .cell:nth-child(7) {
     border-bottom: none;
   }
+
+  .cell:hover {
+    background-color: #f0f0f0;
+  }
+
+  .cell::before {
+    content: '';
+    width: var(--mark-size);
+    height: var(--mark-size);
+    background-color: #000;
+    border-radius: 50%;
+    position: absolute;
+    opacity: 0;
+  }
+
+  .cell[data-mark="x"]::before {
+    background-image: url('https://assets.ccbp.in/frontend/react-js/tic-tac-toe-x-symbol-img.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+
+  .cell[data-mark="o"]::before {
+    background-image: url('https://assets.ccbp.in/frontend/react-js/tic-tac-toe-o-symbol-img.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+
+  .cell[data-mark="x"]::before,
+  .cell[data-mark="o"]::before {
+    opacity: 1;
+  }
+  
   
