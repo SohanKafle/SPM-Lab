@@ -167,19 +167,4 @@
 
   </body>
 
-
-
-
-  <script src="js/jquery-1.12.0.min.js"></script>
-       <script src="js/popper.min.js"></script>
-       <script src="js/bootstrap.min.js"></script>
-      <!-- <script src="js/dropzone.min.js"></script> -->
-       <script src="js/sweetalert2.min.js"></script>
-       <!-- <script src="js/trumbowyg.min.js"></script> -->
-       <!-- <script type="text/javascript" src="js/app.min.js"></script>
-       <script type="text/javascript" src="js/app1.min.js"></script> -->
-       <script type="text/javascript" src="js/main.js"></script>
-       <script type="text/javascript" src="js/game.js"></script>
-
-
 </html>
