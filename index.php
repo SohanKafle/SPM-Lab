@@ -168,5 +168,13 @@
 
   </body>
 
-</html>
 
+  <script src="js/jquery-1.12.0.min.js"></script>
+       <script src="js/popper.min.js"></script>
+       <script src="js/bootstrap.min.js"></script>
+       <script src="js/sweetalert2.min.js"></script>
+       <script type="text/javascript" src="js/main.js"></script>
+       <script type="text/javascript" src="js/game.js"></script>
+
+
+</html>
